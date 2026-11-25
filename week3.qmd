@@ -1,0 +1,24 @@
+---
+title: "Week 3"
+format: revealjs
+filters:
+  - live-questions
+revealjs-plugins:
+  - live-questions
+live-questions:
+  server: https://live-questions.example.workers.dev   # your server (step 3)
+  session: stats101-week3                          # one room per talk
+---
+
+## Which language do you use most?
+
+::: {.poll #lang}
+- R
+- Python
+- Julia
+:::
+
+## One word for today's lecture?
+
+::: {.wordcloud #mood max-words=2}
+:::
